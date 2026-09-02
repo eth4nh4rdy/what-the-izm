@@ -1,0 +1,19 @@
+# ── LLM PROVIDER CONFIG ───────────────────────────────
+# OpenRouter only. Do not add other providers.
+
+llm:
+  provider: "openrouter"
+  max_tokens: 8000
+
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    model: "meta-llama/llama-3.3-70b-instruct:free"
+
+# ── DATA SOURCE CONFIG ────────────────────────────────
+sources:
+  wikipedia:
+    base_url: "https://en.wikipedia.org/api/rest_v1/page/summary"
+    enabled: true
+  sep:
+    base_url: "https://plato.stanford.edu/entries"
+    enabled: true

@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+output/*
+!output/.gitkeep
+.conda/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.swp

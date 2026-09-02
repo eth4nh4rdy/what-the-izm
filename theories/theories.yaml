@@ -1,0 +1,1656 @@
+theories:
+  - id: existentialism
+    name: Existentialism
+    slug: existentialism
+    description: >
+      Existentialism is a philosophical movement asserting that individual human beings create their own meaning
+      in a universe that offers none. Emerging from Kierkegaard and Nietzsche and crystallizing in mid-20th
+      century France, existentialism insists that existence precedes essence — you are not born with a fixed
+      nature but define yourself through choices and actions. It became the dominant intellectual mood of
+      post-war Europe, shaping literature, psychotherapy, and political thought while grappling with freedom,
+      authenticity, bad faith, and the absurd.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Precursors
+        focus: >
+          The intellectual groundwork laid before the term existed — Kierkegaard's radical subjectivity and
+          Nietzsche's destruction of metaphysical foundations create the conditions for a philosophy of
+          individual existence.
+        key_figures:
+          - "Søren Kierkegaard"
+          - "Friedrich Nietzsche"
+          - "Blaise Pascal"
+          - "Fyodor Dostoevsky"
+        key_texts:
+          - "Either/Or — Kierkegaard (1843)"
+          - "Thus Spoke Zarathustra — Nietzsche (1883)"
+          - "Notes from Underground — Dostoevsky (1864)"
+          - "Pensées — Pascal (1670)"
+        key_controversies:
+          - "Kierkegaard's 'leap of faith' is not a philosophical solution but a rhetorical escape — he diagnoses
+            the problem of meaning precisely and then abandons reason entirely to assert Christian faith, which
+            is irrationalism dressed in phenomenological language."
+          - "Nietzsche's Übermensch has no coherent social content — it is an aristocratic fantasy that provided
+            intellectual cover for fascism, and his sister Elisabeth edited his unpublished notes to serve Nazi
+            ideology, a distortion Nietzsche could not correct because he was already insane."
+
+      - id: 2
+        name: Early Existentialism
+        focus: >
+          The formalization of existentialist themes in German phenomenology — Heidegger's analytic of Dasein
+          and Jaspers's philosophy of existence give the movement its first systematic philosophical language.
+        key_figures:
+          - "Martin Heidegger"
+          - "Karl Jaspers"
+          - "Edmund Husserl"
+        key_texts:
+          - "Being and Time — Heidegger (1927)"
+          - "Philosophy — Jaspers (1932)"
+          - "Logical Investigations — Husserl (1900)"
+        key_controversies:
+          - "Heidegger's Nazi party membership from 1933 and his silence afterward are not separable from his
+            philosophy — his concept of Dasein rooted in Volk and his glorification of authenticity through
+            historical destiny directly enabled his political collaboration, as Emmanuel Faye has argued in
+            documented detail."
+          - "Being and Time is deliberately obscurantist — the technical vocabulary (thrownness, ready-to-hand,
+            care) mystifies rather than clarifies, creating an impression of profundity that evaporates on
+            paraphrase, as Rudolf Carnap argued in 'The Elimination of Metaphysics.'"
+
+      - id: 3
+        name: Atheist Existentialism
+        focus: >
+          The Sartrean synthesis that defines existentialism for the general public — freedom, radical
+          responsibility, bad faith, and the absurd, worked out in Paris during and after the German occupation.
+        key_figures:
+          - "Jean-Paul Sartre"
+          - "Albert Camus"
+          - "Simone de Beauvoir"
+        key_texts:
+          - "Being and Nothingness — Sartre (1943)"
+          - "The Myth of Sisyphus — Camus (1942)"
+          - "Existentialism Is a Humanism — Sartre (1945)"
+          - "The Second Sex — de Beauvoir (1949)"
+        key_controversies:
+          - "Sartre's theory of radical freedom is empirically false — he wrote Being and Nothingness while
+            drawing a French state salary under Nazi occupation, and his claim that even prisoners are free
+            because they can choose their attitude is a philosopher's insult to the actually unfree, as
+            Merleau-Ponty argued directly."
+          - "Camus and Sartre's public break over Marxism exposed a core contradiction: Sartre's existentialism
+            demands that freedom be chosen but then endorses Stalinist terror as historically necessary,
+            collapsing the entire framework of individual authenticity he had built."
+
+      - id: 4
+        name: Christian Existentialism
+        focus: >
+          The branch of existentialism that retains a theistic horizon — Marcel, Tillich, and Buber use
+          existentialist categories to articulate faith, grace, and the encounter with God as ground of being.
+        key_figures:
+          - "Gabriel Marcel"
+          - "Paul Tillich"
+          - "Martin Buber"
+          - "Jacques Maritain"
+        key_texts:
+          - "Being and Having — Marcel (1935)"
+          - "The Courage to Be — Tillich (1952)"
+          - "I and Thou — Buber (1923)"
+        key_controversies:
+          - "Christian existentialism is a contradiction in terms — if existence precedes essence and individuals
+            create their own meaning, then positing a divine creator who assigns meaning prior to existence
+            reintroduces the essentialism existentialism was designed to reject."
+          - "Tillich's 'God above God' strips God of all personal attributes to avoid atheist objections,
+            leaving a concept so abstract it is functionally indistinguishable from atheism — his 'ground of
+            being' is theological sleight of hand, not an answer to the question of God's existence."
+
+      - id: 5
+        name: Post-War Existentialism
+        focus: >
+          The dispersal and transformation of existentialism after its Parisian peak — engagement with
+          colonialism, psychotherapy, and feminism, and the emergence of structuralism as a direct challenge
+          to the existentialist subject.
+        key_figures:
+          - "Frantz Fanon"
+          - "Maurice Merleau-Ponty"
+          - "Simone de Beauvoir"
+          - "R.D. Laing"
+        key_texts:
+          - "Black Skin, White Masks — Fanon (1952)"
+          - "The Wretched of the Earth — Fanon (1961)"
+          - "Phenomenology of Perception — Merleau-Ponty (1945)"
+        key_controversies:
+          - "Structuralism — launched by Lévi-Strauss, consolidated by Althusser — dismantled the existentialist
+            subject entirely: the self that freely chooses is itself a product of structures (language, kinship,
+            ideology) that precede and determine it, making Sartrean freedom a bourgeois illusion."
+          - "Fanon's incorporation of existentialism into anti-colonial theory exposed that the movement's
+            universal claims about 'man' were written from a specifically white European position — the
+            colonized subject cannot access Sartrean freedom because their existence is defined by the
+            gaze and violence of the colonizer."
+
+  - id: marxism
+    name: Marxism
+    slug: marxism
+    description: >
+      Marxism is a theory of history, economics, and political emancipation developed by Marx and Engels in
+      the mid-19th century, asserting that all societies are driven by class conflict arising from
+      contradictions in the mode of production. Under capitalism, the working class is systematically
+      exploited through the extraction of surplus value. Marxism predicts and prescribes the revolutionary
+      overthrow of capitalism and the construction of a classless communist society. It became the most
+      influential and contested political philosophy of the 20th century.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Early Marx
+        focus: >
+          Marx's philosophical development from Hegelian idealism through the Feuerbachian turn toward
+          materialism — the humanist Marx of alienation and species-being, before the mature economic
+          analysis of Capital.
+        key_figures:
+          - "Karl Marx"
+          - "Friedrich Engels"
+          - "Ludwig Feuerbach"
+          - "Bruno Bauer"
+        key_texts:
+          - "Economic and Philosophic Manuscripts of 1844 — Marx"
+          - "The German Ideology — Marx and Engels (1845)"
+          - "Theses on Feuerbach — Marx (1845)"
+          - "The Holy Family — Marx and Engels (1845)"
+        key_controversies:
+          - "Althusser argued that the early humanist Marx should be discarded in favor of the scientific Marx
+            of Capital — treating the 1844 Manuscripts as foundational smuggles bourgeois humanism back into
+            Marxist theory and is ideological regression, not philosophical recovery."
+          - "Marx's theory of alienation is borrowed almost wholesale from Feuerbach without acknowledgment,
+            and the claim that capitalism alienates workers from their 'species-being' depends on an
+            essentialist conception of human nature that materialism was supposed to have abandoned."
+
+      - id: 2
+        name: Classical Marxism
+        focus: >
+          The mature theoretical system — the materialist conception of history, political economy, surplus
+          value, and the Communist Manifesto as a call to action — that established Marxism as a
+          world-historical force.
+        key_figures:
+          - "Karl Marx"
+          - "Friedrich Engels"
+          - "Rosa Luxemburg"
+          - "Karl Kautsky"
+        key_texts:
+          - "The Communist Manifesto — Marx and Engels (1848)"
+          - "Capital, Volume I — Marx (1867)"
+          - "The Origin of the Family — Engels (1884)"
+          - "Reform or Revolution — Luxemburg (1900)"
+        key_controversies:
+          - "Marx's labor theory of value has been rejected by mainstream economics as empirically unfalsifiable
+            — prices in actual markets bear no systematic relationship to socially necessary labor time, and
+            the transformation problem (converting values to prices) has never been solved without circular
+            reasoning."
+          - "Engels's editing of Marx's unfinished Capital manuscripts introduced a misleading scientism —
+            Marx's hedged, exploratory economic arguments were repackaged as a complete final system, setting
+            Marxism on a dogmatic trajectory Marx himself did not intend and could not correct."
+
+      - id: 3
+        name: Revolutionary Marxism
+        focus: >
+          The adaptation of Marxism to revolutionary practice — Lenin's vanguard party, Trotsky's permanent
+          revolution, and the Bolshevik seizure of power, raising every question about the relationship
+          between theory and political organization.
+        key_figures:
+          - "Vladimir Lenin"
+          - "Leon Trotsky"
+          - "Rosa Luxemburg"
+          - "Georg Lukács"
+        key_texts:
+          - "What Is To Be Done? — Lenin (1902)"
+          - "Imperialism, the Highest Stage of Capitalism — Lenin (1917)"
+          - "History and Class Consciousness — Lukács (1923)"
+          - "The Russian Revolution — Luxemburg (1918)"
+        key_controversies:
+          - "Rosa Luxemburg's critique of Lenin proved correct: the vanguard party model replaces the
+            self-emancipation of the working class with the dictatorship of professional revolutionaries,
+            and the Bolshevik outcome — one-party rule, Cheka terror, suppression of soviets — was not a
+            Stalinist betrayal but the logical result of Leninist organizational principles."
+          - "Lukács's concept of 'imputed class consciousness' — what the proletariat would think if it
+            understood its true interests — licenses the party to override actual workers' expressed views
+            in the name of a consciousness workers do not possess, which is the theoretical foundation of
+            every Marxist-Leninist authoritarian state."
+
+      - id: 4
+        name: Western Marxism
+        focus: >
+          The turn away from party politics toward culture, ideology, and superstructure — the Frankfurt
+          School, Gramsci's hegemony, and the effort to explain why revolution failed in the West.
+        key_figures:
+          - "Antonio Gramsci"
+          - "Max Horkheimer"
+          - "Theodor Adorno"
+          - "Herbert Marcuse"
+          - "Walter Benjamin"
+        key_texts:
+          - "Prison Notebooks — Gramsci (1929–1935)"
+          - "Dialectic of Enlightenment — Horkheimer and Adorno (1944)"
+          - "One-Dimensional Man — Marcuse (1964)"
+          - "The Work of Art in the Age of Mechanical Reproduction — Benjamin (1935)"
+        key_controversies:
+          - "Perry Anderson's Considerations on Western Marxism is decisive: by retreating from economics and
+            political organization into philosophy and culture, Western Marxism became a luxury of academic
+            defeat — elegant, sophisticated, and completely useless for actual working-class politics."
+          - "Adorno and Horkheimer's Dialectic of Enlightenment condemns the culture industry as total
+            domination but offers no theory of resistance or agency — it is totalizing pessimism that makes
+            political action unthinkable, which is why it was popular in universities and nowhere else."
+
+      - id: 5
+        name: Neo-Marxism
+        focus: >
+          The post-1960s proliferation of Marxist frameworks — structural Marxism, analytical Marxism,
+          eco-Marxism, and the engagement with feminism and postcolonial theory, each attempting to
+          reconstruct historical materialism for new conditions.
+        key_figures:
+          - "Louis Althusser"
+          - "G.A. Cohen"
+          - "Erik Olin Wright"
+          - "David Harvey"
+          - "Fredric Jameson"
+        key_texts:
+          - "For Marx — Althusser (1965)"
+          - "Karl Marx's Theory of History — Cohen (1978)"
+          - "Postmodernism, or the Cultural Logic of Late Capitalism — Jameson (1991)"
+        key_controversies:
+          - "Althusser's 'ideological state apparatuses' is unfalsifiable by design — everything from schools
+            to families to trade unions is redescribed as a mechanism of capitalist reproduction, producing a
+            total system with no outside and no mechanism for change; this is not science but paranoia
+            with footnotes."
+          - "Analytical Marxism (Cohen, Elster, Roemer) attempted to reconstruct Marxism using rational choice
+            theory but succeeded only in showing that historical materialism's core propositions — base/
+            superstructure, exploitation, class — either collapse under scrutiny or must be so redefined as
+            to be unrecognizable as Marxist."
+
+  - id: anarchism
+    name: Anarchism
+    slug: anarchism
+    description: >
+      Anarchism is a political philosophy that rejects all coercive authority — the state, capitalism,
+      patriarchy, and hierarchical institutions — as inherently unjust and unnecessary. Arising from
+      Proudhon's declaration that 'property is theft,' anarchism insists that free human beings can
+      organize cooperation, mutual aid, and collective life without rulers. It encompasses a wide spectrum
+      from individualist to communist variants and has influenced revolutionary movements, labor organizing,
+      feminist theory, and contemporary anti-globalization and ecological politics.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Early Anarchism
+        focus: >
+          The first systematic articulations of anarchism as a distinct philosophy — Godwin's rationalist
+          critique of government, Proudhon's mutualism, and Stirner's radical egoism establish the range of
+          positions that will define the movement.
+        key_figures:
+          - "William Godwin"
+          - "Pierre-Joseph Proudhon"
+          - "Max Stirner"
+        key_texts:
+          - "An Enquiry Concerning Political Justice — Godwin (1793)"
+          - "What Is Property? — Proudhon (1840)"
+          - "The Ego and Its Own — Stirner (1844)"
+        key_controversies:
+          - "Proudhon's mutualism is economically incoherent — his vision of interest-free credit banks and
+            fair exchange based on labor time replicates the labor theory of value problems without solving
+            them, and his proposed People's Bank collapsed immediately in practice."
+          - "Stirner's egoism rejects all social obligation including mutual aid, making collective action
+            logically impossible — it is the philosophical equivalent of telling the oppressed that solidarity
+            is a spook, which serves the powerful perfectly well."
+
+      - id: 2
+        name: Classical Anarchism
+        focus: >
+          The mature anarchist movement of the late 19th and early 20th centuries — Bakunin's collectivism,
+          Kropotkin's mutual aid, and the turn toward revolutionary syndicalism and direct action.
+        key_figures:
+          - "Mikhail Bakunin"
+          - "Peter Kropotkin"
+          - "Emma Goldman"
+          - "Errico Malatesta"
+        key_texts:
+          - "God and the State — Bakunin (1882)"
+          - "Mutual Aid: A Factor of Evolution — Kropotkin (1902)"
+          - "Anarchism and Other Essays — Goldman (1910)"
+          - "Anarchy — Malatesta (1891)"
+        key_controversies:
+          - "Bakunin's conflict with Marx in the First International exposed a real contradiction: Bakunin
+            wanted to abolish the state immediately after revolution, but events in Spain 1936–1939 vindicated
+            Marx's concern — anarchist militias were defeated in part due to refusal of military discipline
+            and centralized command."
+          - "Kropotkin's Mutual Aid cherry-picks evolutionary biology — his reading of Darwinism as supporting
+            cooperation over competition was motivated by political commitment, not scientific rigor, and his
+            anarchist-communist conclusions do not follow from the evolutionary data he marshals."
+
+      - id: 3
+        name: Post-War Anarchism
+        focus: >
+          Anarchism's reassertion after the defeats of the 1930s and 1940s — synthesis with pacifism,
+          the emergence of anarcho-syndicalism in the labor movement, and the influence on the New Left.
+        key_figures:
+          - "Herbert Read"
+          - "Paul Goodman"
+          - "Murray Bookchin"
+          - "Daniel Guérin"
+        key_texts:
+          - "Growing Up Absurd — Goodman (1960)"
+          - "Post-Scarcity Anarchism — Bookchin (1971)"
+          - "Anarchism — Guérin (1965)"
+        key_controversies:
+          - "Bookchin's 'libertarian municipalism' was correctly identified by Bookchin himself as incompatible
+            with classical anarchism — he eventually renamed it 'communalism' and publicly broke with anarchism,
+            which suggests the theoretical core was unable to generate viable institutional alternatives."
+          - "Post-war anarchism's alliance with pacifism produced an internal contradiction: if state violence
+            is always illegitimate, revolutionary violence against the state must also be illegitimate, leaving
+            anarchism with no coherent theory of how to actually abolish the institutions it opposes."
+
+      - id: 4
+        name: Contemporary Anarchism
+        focus: >
+          Anarchism's reinvention in the context of anti-globalization, ecological crisis, feminism, and
+          digital technology — from Zapatistas to Occupy, anarchism provides the implicit politics of many
+          contemporary movements without calling itself by that name.
+        key_figures:
+          - "David Graeber"
+          - "Noam Chomsky"
+          - "Judith Butler"
+          - "Starhawk"
+        key_texts:
+          - "Debt: The First 5,000 Years — Graeber (2011)"
+          - "Fragments of an Anarchist Anthropology — Graeber (2004)"
+          - "Chomsky on Anarchism — Chomsky (2005)"
+        key_controversies:
+          - "Graeber's anthropological anarchism uses ethnographic examples of non-hierarchical societies to
+            argue that states are not inevitable, but the societies he cites maintained order through social
+            pressure, shame, and sometimes extreme communal violence that is no less coercive than state law."
+          - "Contemporary anarchism's embrace of horizontalism in movements like Occupy produced organizational
+            paralysis — the refusal to elect representatives meant informal leaders exercised unaccountable
+            power, which Jo Freeman analyzed as 'the tyranny of structurelessness.'"
+
+  - id: feminism
+    name: Feminism
+    slug: feminism
+    description: >
+      Feminism is a political and philosophical movement committed to the full social, economic, and political
+      equality of women, and to the analysis and dismantling of patriarchal structures that systematically
+      subordinate women. From suffrage campaigns of the 19th century through the sexual politics of the
+      1960s and 1970s to contemporary intersectional and digital-era movements, feminism has transformed law,
+      culture, philosophy, and everyday life while generating ongoing debates about the nature of gender, the
+      relationship between sex and power, and whose liberation counts.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: First Wave
+        focus: >
+          The 19th and early 20th century campaign for formal legal equality — suffrage, property rights, and
+          access to education — primarily driven by middle-class white women in Britain and the United States,
+          with complex entanglements with abolitionism and colonialism.
+        key_figures:
+          - "Mary Wollstonecraft"
+          - "Elizabeth Cady Stanton"
+          - "Susan B. Anthony"
+          - "Sojourner Truth"
+          - "Emmeline Pankhurst"
+        key_texts:
+          - "A Vindication of the Rights of Woman — Wollstonecraft (1792)"
+          - "The Declaration of Sentiments — Stanton (1848)"
+          - "The Subjection of Women — John Stuart Mill (1869)"
+        key_controversies:
+          - "First-wave feminism achieved suffrage for white women while actively collaborating with racist
+            disfranchisement — Stanton and Anthony opposed the 15th Amendment giving Black men the vote,
+            arguing that educated white women deserved suffrage more than 'ignorant' Black men, and the
+            mainstream suffrage movement systematically excluded Black women."
+          - "Wollstonecraft's feminism is built on Enlightenment rationalism that valorizes 'masculine' reason
+            over 'feminine' emotion, accepting the terms of patriarchal valuation and demanding women be
+            admitted to rationality rather than questioning why rationality was defined against femininity
+            in the first place."
+
+      - id: 2
+        name: Second Wave
+        focus: >
+          The explosion of feminist politics and theory from the 1960s to 1980s — moving beyond formal
+          equality to target patriarchy in the home, workplace, and body; radical, liberal, and socialist
+          feminism as distinct tendencies.
+        key_figures:
+          - "Betty Friedan"
+          - "Germaine Greer"
+          - "Kate Millett"
+          - "Andrea Dworkin"
+          - "bell hooks"
+          - "Shulamith Firestone"
+        key_texts:
+          - "The Feminine Mystique — Friedan (1963)"
+          - "Sexual Politics — Millett (1970)"
+          - "The Female Eunuch — Greer (1970)"
+          - "The Dialectic of Sex — Firestone (1970)"
+          - "Ain't I a Woman — hooks (1981)"
+        key_controversies:
+          - "Friedan's The Feminine Mystique diagnosed 'the problem that has no name' entirely from the
+            perspective of educated white suburban housewives — it was silent on working-class women of color
+            who had always worked outside the home, treating middle-class domesticity as the universal
+            female condition."
+          - "The 'sex wars' of the 1980s fractured second-wave feminism irreparably: Dworkin and MacKinnon's
+            position that pornography is inherently oppressive was opposed by pro-sex feminists who argued it
+            replicated Victorian prudery and empowered the state to censor women's sexuality in feminism's name."
+
+      - id: 3
+        name: Third Wave
+        focus: >
+          The 1990s feminist response to second-wave perceived exclusions and rigidity — embracing
+          contradiction, popular culture, individual empowerment, and the multiplicity of female experience,
+          with grunge, riot grrrl, and poststructuralist theory as common references.
+        key_figures:
+          - "Rebecca Walker"
+          - "Naomi Wolf"
+          - "bell hooks"
+          - "Judith Butler"
+          - "Kathleen Hanna"
+        key_texts:
+          - "The Beauty Myth — Wolf (1990)"
+          - "Gender Trouble — Butler (1990)"
+          - "To Be Real — Walker (1995)"
+          - "Manifesta — Baumgardner and Richards (2000)"
+        key_controversies:
+          - "Butler's performativity theory — that gender is constituted through repeated stylized acts —
+            has been criticized by Martha Nussbaum as politically evasive: it produces sophisticated analysis
+            of gender subversion while offering nothing to women suffering concrete material oppression who
+            need law and institutions changed, not parody."
+          - "Third-wave feminism's embrace of 'empowerment' and individual choice was co-opted by consumer
+            capitalism — cosmetic surgery, pornography, and pole-dancing were rebranded as feminist acts of
+            self-expression, stripping the political content from feminism and replacing it with lifestyle
+            consumption."
+
+      - id: 4
+        name: Fourth Wave
+        focus: >
+          The social-media-era feminism from roughly 2012 onward — #MeToo, call-out culture, trans inclusion
+          debates, online organizing, and the confrontation with both renewed right-wing antifeminism and
+          internal disputes over the boundaries of the category 'woman.'
+        key_figures:
+          - "Roxane Gay"
+          - "Chimamanda Ngozi Adichie"
+          - "Tarana Burke"
+          - "Laverne Cox"
+          - "Kathleen Stock"
+        key_texts:
+          - "Bad Feminist — Gay (2014)"
+          - "We Should All Be Feminists — Adichie (2014)"
+          - "Material Girls — Stock (2021)"
+        key_controversies:
+          - "#MeToo's reliance on social media accusation rather than legal process has been criticized —
+            including by feminist legal scholars — for creating a parallel justice system with no due process
+            and no proportionality, where outcomes are determined by social capital rather than evidence."
+          - "The dispute between gender-critical feminists (sex is biological, 'woman' is grounded in it) and
+            trans-inclusive feminists (trans women are women) has produced a genuine conceptual impasse that
+            cannot be resolved without deciding what feminism is fundamentally about — material conditions
+            or identity."
+
+      - id: 5
+        name: Intersectional Feminism
+        focus: >
+          The theoretical framework — developed from Kimberlé Crenshaw's legal scholarship — that gender
+          oppression cannot be analyzed in isolation from race, class, sexuality, and disability, which
+          intersect to produce qualitatively distinct forms of subordination.
+        key_figures:
+          - "Kimberlé Crenshaw"
+          - "Patricia Hill Collins"
+          - "Angela Davis"
+          - "Audre Lorde"
+          - "bell hooks"
+        key_texts:
+          - "Mapping the Margins — Crenshaw (1991)"
+          - "Black Feminist Thought — Collins (1990)"
+          - "Sister Outsider — Lorde (1984)"
+          - "Women, Race and Class — Davis (1981)"
+        key_controversies:
+          - "If every intersection of identity creates a unique standpoint, intersectionality produces a
+            politics of fragmentation with no common ground for coalition — ultimately dissolving the category
+            'women' that feminism requires as its subject, which is why some feminist scholars argue it has
+            consumed the movement it was designed to strengthen."
+          - "Crenshaw's intersectionality was developed as a specific legal framework for antidiscrimination
+            law and has been widely misapplied as a general social theory — in popularized form it functions
+            as a hierarchy of credibility based on identity rather than argument, replacing political analysis
+            with a competition over victimhood."
+
+  - id: empiricism
+    name: Empiricism
+    slug: empiricism
+    description: >
+      Empiricism is the epistemological position that knowledge of the world is derived primarily or
+      exclusively from sensory experience, as opposed to innate ideas or pure reason. Crystallized by the
+      British empiricists Locke, Berkeley, and Hume, empiricism became the philosophical foundation of
+      modern science, shaped the development of psychology, and generated the logical positivism of the
+      early 20th century. It remains the dominant epistemological framework of the natural sciences and
+      informs contemporary debates about the nature of knowledge, justification, and the limits of what
+      can be meaningfully said.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Early Empiricism
+        focus: >
+          The ancient and Renaissance precursors to systematic empiricism — Aristotle's rejection of Platonic
+          Forms in favor of knowledge derived from the senses, and Bacon's critique of scholasticism and
+          method of induction.
+        key_figures:
+          - "Aristotle"
+          - "Francis Bacon"
+          - "William of Ockham"
+          - "Roger Bacon"
+        key_texts:
+          - "Posterior Analytics — Aristotle"
+          - "Novum Organum — Bacon (1620)"
+          - "The New Atlantis — Bacon (1627)"
+        key_controversies:
+          - "Bacon's method of induction was shown by Hume to be logically unjustifiable: no finite number of
+            observations can prove a universal law, meaning all inductive inference is epistemically circular,
+            and science rests on a foundation Bacon's own method cannot provide."
+          - "Aristotle's empiricism is inconsistent with his teleology — his claim that natural things have
+            inherent purposes imports a non-empirical metaphysics that Bacon and later empiricists correctly
+            identified as the main obstacle to scientific progress, yet Aristotle presented it as derived
+            from observation."
+
+      - id: 2
+        name: British Empiricism
+        focus: >
+          The classical period — Locke's tabula rasa, Berkeley's idealism, and Hume's radical skepticism
+          about causation and the self, which together push empiricism to its logical conclusions and
+          nearly destroy it.
+        key_figures:
+          - "John Locke"
+          - "George Berkeley"
+          - "David Hume"
+          - "Thomas Reid"
+        key_texts:
+          - "An Essay Concerning Human Understanding — Locke (1689)"
+          - "A Treatise Concerning the Principles of Human Knowledge — Berkeley (1710)"
+          - "A Treatise of Human Nature — Hume (1739)"
+          - "Enquiry Concerning Human Understanding — Hume (1748)"
+        key_controversies:
+          - "Hume's problem of induction is not a puzzle to be solved but a permanent refutation of
+            empiricism's foundational claim: if we cannot rationally justify inferring from past experience
+            to future events, then empirical knowledge rests on habit and custom rather than reason, and
+            empiricism provides no epistemological foundation for science."
+          - "Berkeley's empiricism — which concludes that material objects do not exist independently of
+            perception — is technically valid given empiricist premises but philosophically absurd, suggesting
+            the premises are wrong; Kant's response, that knowledge requires a priori categories the senses
+            alone cannot supply, remains the most powerful critique of pure empiricism."
+
+      - id: 3
+        name: Logical Empiricism
+        focus: >
+          The Vienna Circle's attempt to make philosophy scientific — the verificationist criterion of
+          meaning, the unity of science program, and the logical analysis of language as the proper task
+          of philosophy.
+        key_figures:
+          - "Moritz Schlick"
+          - "Rudolf Carnap"
+          - "A.J. Ayer"
+          - "Otto Neurath"
+          - "Ludwig Wittgenstein (early)"
+        key_texts:
+          - "Language, Truth and Logic — Ayer (1936)"
+          - "The Logical Structure of the World — Carnap (1928)"
+          - "Tractatus Logico-Philosophicus — Wittgenstein (1921)"
+        key_controversies:
+          - "The verificationist criterion of meaning — that a statement is meaningful only if empirically
+            verifiable — is self-refuting: 'only empirically verifiable statements are meaningful' is not
+            itself empirically verifiable, so by its own standard it is meaningless. The Vienna Circle
+            never resolved this."
+          - "Hempel's raven paradox exposed that the logical empiricists had no coherent account of
+            confirmation: observing a green apple logically confirms the hypothesis that all ravens are
+            black, which is absurd — their formal machinery produced results that destroyed scientific
+            intuition rather than justifying it."
+
+      - id: 4
+        name: Contemporary Empiricism
+        focus: >
+          The post-Vienna Circle empiricism shaped by Quine's naturalism — rejecting the analytic/synthetic
+          distinction, embracing the web of belief, and positioning epistemology as continuous with natural
+          science rather than prior to it.
+        key_figures:
+          - "W.V.O. Quine"
+          - "Bas van Fraassen"
+          - "Paul Churchland"
+          - "Hilary Kornblith"
+        key_texts:
+          - "Two Dogmas of Empiricism — Quine (1951)"
+          - "The Scientific Image — van Fraassen (1980)"
+          - "Word and Object — Quine (1960)"
+        key_controversies:
+          - "Quine's naturalized epistemology — replacing 'what should we believe?' with 'how do we form
+            beliefs?' — is not epistemology at all: it abandons the justification project entirely and cannot
+            explain why we should prefer science to astrology, since both are equally describable as human
+            belief-forming practices."
+          - "Van Fraassen's constructive empiricism — that science aims only at empirical adequacy, not truth
+            about unobservable entities — cannot consistently be stated: asserting that electrons are
+            empirically adequate but unreal requires claims about what is observable, which itself depends on
+            a theory of what exists, making his anti-realism internally unstable."
+
+  - id: nihilism
+    name: Nihilism
+    slug: nihilism
+    description: >
+      Nihilism is the philosophical position that life lacks objective meaning, moral values are groundless,
+      and knowledge may be impossible — that the structures of purpose and value human beings construct are
+      illusions with no external validation. The term emerged in 19th-century Russia as both a political and
+      philosophical movement, was analyzed most acutely by Nietzsche as the defining crisis of modernity,
+      and continues to haunt contemporary thought about ethics, politics, and the human condition. Nihilism
+      is less a coherent doctrine than a family of negations — of meaning, value, knowledge, and existence —
+      that appear wherever certainties collapse.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Precursors
+        focus: >
+          Ancient and early modern antecedents to systematic nihilism — Pyrrhonian skepticism, Gorgias's
+          nihilist paradoxes, and the dissolution of medieval certainties in the early modern period.
+        key_figures:
+          - "Pyrrho of Elis"
+          - "Gorgias"
+          - "Sextus Empiricus"
+          - "Michel de Montaigne"
+        key_texts:
+          - "Outlines of Pyrrhonism — Sextus Empiricus (c. 200 CE)"
+          - "On Non-Existence — Gorgias"
+          - "Essays — Montaigne (1580)"
+        key_controversies:
+          - "Pyrrhonian skepticism is self-refuting in practice: Pyrrho had to function in the world, eat,
+            avoid traffic, form intentions — his disciples reported he needed companions to prevent him
+            walking into ditches, suggesting radical skepticism is not a livable position but a philosophical
+            pose."
+          - "The Pyrrhonist prescription of epoché (suspension of judgment) as the path to ataraxia
+            (tranquility) is paradoxical: achieving tranquility is itself a goal, which means the Pyrrhonist
+            values tranquility — contradicting the claim to suspend all value judgments."
+
+      - id: 2
+        name: Philosophical Nihilism
+        focus: >
+          Nihilism as a systematic philosophical position — Nietzsche's diagnosis of nihilism as the
+          consequence of European modernity's loss of religious foundation, and Schopenhauer's pessimistic
+          metaphysics as the philosophical expression of meaninglessness.
+        key_figures:
+          - "Friedrich Nietzsche"
+          - "Arthur Schopenhauer"
+          - "Philipp Mainländer"
+        key_texts:
+          - "The Will to Power — Nietzsche (notes, 1883–1888)"
+          - "The World as Will and Representation — Schopenhauer (1818)"
+          - "The Gay Science — Nietzsche (1882)"
+          - "The Philosophy of Redemption — Mainländer (1876)"
+        key_controversies:
+          - "Nietzsche diagnoses nihilism but his proposed solution — the revaluation of all values and the
+            will to power — is itself a value claim; Nietzsche is not a nihilist but a covert moralist who
+            uses nihilism as a rhetorical clearing device to install his own preferred values. His critique
+            of morality is itself moral."
+          - "Schopenhauer's pessimism depends on identifying existence with suffering, but his recommendation
+            of aesthetic contemplation and ascetic renunciation as escape contradicts his own metaphysics: if
+            the will is all there is, the will to renounce the will is still the will."
+
+      - id: 3
+        name: Russian Nihilism
+        focus: >
+          The 1860s Russian political and cultural movement — nihilism as the rejection of tradition,
+          religion, and authority in favor of science, materialism, and radical social change, associated
+          with the generation of Chernyshevsky and the fictional Bazarov.
+        key_figures:
+          - "Dmitry Pisarev"
+          - "Nikolai Chernyshevsky"
+          - "Sergei Nechayev"
+          - "Ivan Turgenev (portraitist)"
+        key_texts:
+          - "What Is to Be Done? — Chernyshevsky (1863)"
+          - "Fathers and Sons — Turgenev (1862)"
+          - "Catechism of a Revolutionary — Nechayev (1869)"
+        key_controversies:
+          - "Russian nihilism was less a philosophy than a generational style — its 'scientific materialism'
+            was scientism, not science, and Pisarev's demand that only what is useful should exist is a moral
+            imperative dressed as nihilism; it rejected all values while smuggling in a value system through
+            the back door."
+          - "Nechayev's Catechism of a Revolutionary — describing the revolutionary as a man with no feelings
+            or interests who uses everyone as means to an end — was correctly identified by Bakunin as a
+            blueprint for political psychopathy, and Dostoevsky's Demons is the most accurate philosophical
+            response to what this program produces in practice."
+
+      - id: 4
+        name: Existential Nihilism
+        focus: >
+          The 20th century engagement with nihilism as a personal rather than political problem — Camus's
+          absurdism as a response to nihilism, Sartre's existentialism as an attempt to escape it, and
+          Heidegger's analysis of the nothing as a fundamental feature of Dasein.
+        key_figures:
+          - "Albert Camus"
+          - "Jean-Paul Sartre"
+          - "Martin Heidegger"
+          - "Emil Cioran"
+        key_texts:
+          - "The Myth of Sisyphus — Camus (1942)"
+          - "Nausea — Sartre (1938)"
+          - "What Is Metaphysics? — Heidegger (1929)"
+          - "A Short History of Decay — Cioran (1949)"
+        key_controversies:
+          - "Camus's rebellion against the absurd — his insistence on living fully despite meaninglessness —
+            is not a philosophical argument but an act of will; it amounts to saying 'nihilism is true but I
+            refuse to accept it,' which is psychologically understandable but logically incoherent as a
+            response to the problem."
+          - "Cioran's literary nihilism is aesthetically compelling precisely because it does not attempt to
+            resolve nihilism — but this means it is philosophy as mood rather than argument, and readers
+            often find it deepens despair rather than providing any intellectual tools for addressing it."
+
+      - id: 5
+        name: Contemporary Nihilism
+        focus: >
+          Nihilism's dispersal into postmodern theory, internet culture, and political pessimism — the
+          memeification of nihilism, its relationship to political disengagement, and philosophical efforts
+          to think beyond both nihilism and naive meaning-making.
+        key_figures:
+          - "Jean Baudrillard"
+          - "Thomas Ligotti"
+          - "Eugene Thacker"
+          - "Ray Brassier"
+        key_texts:
+          - "Simulacra and Simulation — Baudrillard (1981)"
+          - "The Conspiracy Against the Human Race — Ligotti (2010)"
+          - "Nihil Unbound — Brassier (2007)"
+        key_controversies:
+          - "Brassier's 'enlightened nihilism' — the claim that neuroscience vindicates nihilism as the
+            correct metaphysical position and that we should affirm it — is scientism: it treats science as
+            delivering metaphysical verdicts it is not equipped to deliver, and its conclusion (meaninglessness
+            is the truth we must face) is presented as a meaningful truth worth affirming."
+          - "Internet nihilism — expressed through irony, memes, and accelerationist politics — functions as
+            political anesthesia: it provides the feeling of seeing through ideology without the discomfort
+            of forming commitments, and is therefore not a challenge to power but a resource for it, since
+            the most nihilistic populations are the least likely to organize."
+
+  - id: futurism
+    name: Futurism
+    slug: futurism
+    description: >
+      Futurism was an Italian avant-garde art and political movement founded in 1909 by Filippo Tommaso
+      Marinetti, celebrating speed, technology, machines, violence, and the destruction of tradition as the
+      essential conditions of modernity. The Futurists rejected the past — museums, libraries, classical
+      beauty — in favor of the dynamic, aggressive energy of the industrial age. Futurism produced
+      significant work in painting, sculpture, poetry, architecture, and music, and its political trajectory
+      toward fascism makes it one of the most instructive examples of avant-garde aesthetics in the service
+      of authoritarian politics.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Founding and Manifesto
+        focus: >
+          The founding moment — Marinetti's Futurist Manifesto published on the front page of Le Figaro in
+          1909, its central provocations, and the immediate formation of the Futurist group in Milan.
+        key_figures:
+          - "Filippo Tommaso Marinetti"
+          - "Umberto Boccioni"
+          - "Carlo Carrà"
+          - "Luigi Russolo"
+        key_texts:
+          - "The Founding and Manifesto of Futurism — Marinetti (1909)"
+          - "Manifesto of Futurist Painters — Boccioni et al. (1910)"
+          - "The Art of Noises — Russolo (1913)"
+        key_controversies:
+          - "The Futurist Manifesto's glorification of war as 'the world's only hygiene,' its explicit
+            misogyny ('we want to scorn women'), and its celebration of violence are not incidental
+            provocations but the philosophical core of the movement — later apologists who call these
+            rhetorical excess are sanitizing a movement that meant what it said and acted accordingly."
+          - "Marinetti published the Futurist Manifesto in a French newspaper, not an Italian one, which
+            reveals that Futurism was from the beginning a calculated international PR event rather than a
+            spontaneous avant-garde uprising — the rhetoric of raw vitality was itself a sophisticated
+            media strategy."
+
+      - id: 2
+        name: Artistic Futurism
+        focus: >
+          The actual artistic production — paintings, sculptures, performances, and intonarumori concerts
+          that attempted to capture dynamism, simultaneity, and the energy of modern industrial life in
+          visual and sonic form.
+        key_figures:
+          - "Umberto Boccioni"
+          - "Giacomo Balla"
+          - "Gino Severini"
+          - "Luigi Russolo"
+          - "Antonio Sant'Elia"
+        key_texts:
+          - "States of Mind — Boccioni (paintings, 1911)"
+          - "Dynamism of a Dog on a Leash — Balla (painting, 1912)"
+          - "Futurist Architecture Manifesto — Sant'Elia (1914)"
+        key_controversies:
+          - "The Futurists' visual language was largely derived from Cubism, which they had seen in Paris in
+            1911, and then misrepresented as independently Italian — Boccioni's 'dynamism' is a temporal
+            development of Cubist simultaneity rather than an original discovery, and Futurist aggressive
+            nationalism concealed this intellectual debt."
+          - "Futurist art rarely achieved in practice what its manifestos demanded in theory — the actual
+            paintings of Balla and Severini are formally interesting but tame compared to the rhetoric of
+            violent transformation, exposing the gap between Futurist ambition and Futurist achievement."
+
+      - id: 3
+        name: Political Futurism
+        focus: >
+          Futurism's explicit entry into politics — Marinetti's interventionism in World War I, the
+          Futurists' founding role in the Italian Fasci di Combattimento, and the movement's programmatic
+          alignment with fascism as the political expression of its aesthetic values.
+        key_figures:
+          - "Filippo Tommaso Marinetti"
+          - "Benito Mussolini"
+          - "Mario Carli"
+          - "Ferruccio Vecchi"
+        key_texts:
+          - "Futurist Political Programme — Marinetti (1913)"
+          - "Futurism and Fascism — Marinetti (1924)"
+          - "The Futurist Democratic Programme — Marinetti (1919)"
+        key_controversies:
+          - "The Futurist-Fascist alliance was not a mistake or co-optation but a fulfillment of Futurist
+            principles — the glorification of violence, anti-intellectualism, masculine dominance, nationalism,
+            and contempt for democracy were present in the 1909 Manifesto; the movement was naturally fascist
+            from its inception."
+          - "Marinetti's attempt to distinguish Futurism from fascism's conservative classicism was ultimately
+            self-serving: he remained a Fascist Party member until the end, and his complaints about the
+            party's cultural policy never extended to opposition to its political violence or its wars."
+
+      - id: 4
+        name: Late Futurism and Decline
+        focus: >
+          Futurism's decline after its peak — internal fragmentation, deaths of key figures in World War I,
+          and the movement's absorption into fascist official culture and loss of avant-garde energy.
+        key_figures:
+          - "Filippo Tommaso Marinetti"
+          - "Fortunato Depero"
+          - "Enrico Prampolini"
+          - "Tullio Crali"
+        key_texts:
+          - "Tactilism — Marinetti (1921)"
+          - "Aeropittura Manifesto — Marinetti et al. (1929)"
+          - "The Futurist Cookbook — Marinetti (1932)"
+        key_controversies:
+          - "Aeropittura — Futurist aviation painting — represented the complete surrender of avant-garde
+            aesthetics to state glorification; paintings celebrating the Italian air force as instruments of
+            colonial war in Ethiopia and Libya are propaganda, not art, revealing that Futurism's final stage
+            was its transformation into a regime's art department."
+          - "Marinetti's Futurist Cookbook, which attacked pasta as a source of Italian lethargy, is routinely
+            treated as surrealist humor but was a serious political document — a dietary program for
+            manufacturing the aggressive masculine body type fascism required, consistent with the movement's
+            entire project of reengineering human beings for war."
+
+  - id: stoicism
+    name: Stoicism
+    slug: stoicism
+    description: >
+      Stoicism is a Greek philosophical school founded in Athens by Zeno of Citium around 300 BCE, teaching
+      that the path to flourishing lies in living according to nature and reason, distinguishing between what
+      is 'up to us' (desires, judgments, responses) and what is not (health, wealth, reputation), and
+      cultivating virtue as the only unconditional good. Stoicism became the dominant philosophy of the
+      Roman imperial elite, producing the remarkable writings of Seneca, Epictetus, and Marcus Aurelius,
+      and has experienced a powerful modern revival — with both genuine insights and significant
+      oversimplifications in its popular forms.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Hellenic Origins
+        focus: >
+          The founding of Stoicism in Athens by Zeno and its development through Cleanthes and Chrysippus
+          into a comprehensive philosophical system encompassing logic, physics, and ethics.
+        key_figures:
+          - "Zeno of Citium"
+          - "Cleanthes"
+          - "Chrysippus"
+          - "Diogenes of Babylon"
+        key_texts:
+          - "Fragments — Zeno (surviving only as quotations)"
+          - "Hymn to Zeus — Cleanthes"
+          - "Fragments — Chrysippus (surviving only as quotations)"
+        key_controversies:
+          - "Chrysippus's logical determinism — that all events are causally necessitated by fate — is
+            incompatible with Stoic ethics of responsibility: if everything I do is fated, praise and blame
+            are irrational; the Stoics' attempt to reconcile fate and responsibility through 'co-fate' was
+            criticized by Alexander of Aphrodisias as a verbal trick, not a solution."
+          - "The Stoic claim that virtue is the only good and externals (health, wealth, freedom) are
+            'indifferent' was developed by and for men of privilege who could afford to call poverty and
+            illness indifferent — for the enslaved or chronically ill, the claim that external conditions
+            are irrelevant to flourishing is not wisdom but cruelty."
+
+      - id: 2
+        name: Middle Stoa
+        focus: >
+          The adaptation of Stoicism to Roman culture and practical ethics under Panaetius and Posidonius —
+          softening the harsh paradoxes of the early Stoa and making Stoicism the philosophy of the
+          Roman governing class.
+        key_figures:
+          - "Panaetius of Rhodes"
+          - "Posidonius of Apamea"
+          - "Scipio Africanus (patron)"
+        key_texts:
+          - "On Duty (source for Cicero's De Officiis) — Panaetius"
+          - "Fragments — Posidonius"
+          - "De Officiis — Cicero (1st century BCE, Stoic-influenced)"
+        key_controversies:
+          - "Panaetius's accommodation of Stoicism to Roman aristocratic values — accepting that external
+            goods matter to the good life rather than maintaining they are strictly indifferent — was
+            criticized by orthodox Stoics as a betrayal that transformed a radical philosophy of freedom into
+            a justification for the privileges of the Roman ruling class."
+          - "Posidonius's reintroduction of irrational soul-parts into Stoic psychology contradicted the
+            Stoic thesis that all emotions are false value-judgments and all vice is cognitive error — his
+            synthesis absorbed Platonism in ways that undermined Stoic logic without being honest about
+            the contradiction."
+
+      - id: 3
+        name: Roman Stoicism
+        focus: >
+          The peak of Stoicism as a living philosophy — Seneca, Epictetus, and Marcus Aurelius produce the
+          writings that define Stoicism for posterity, each from radically different social positions:
+          wealthy statesman, former slave, emperor.
+        key_figures:
+          - "Lucius Annaeus Seneca"
+          - "Epictetus"
+          - "Marcus Aurelius"
+          - "Musonius Rufus"
+        key_texts:
+          - "Letters to Lucilius — Seneca (c. 65 CE)"
+          - "Discourses — Epictetus (recorded by Arrian, c. 108 CE)"
+          - "Meditations — Marcus Aurelius (c. 170–180 CE)"
+        key_controversies:
+          - "Seneca's biography is a sustained refutation of his philosophy: he preached poverty while
+            accumulating one of Rome's largest fortunes through predatory moneylending, and he advised Nero
+            while Nero murdered his own mother; his Stoic letters are the most eloquent ancient example of
+            the gap between preached virtue and lived conduct."
+          - "Marcus Aurelius, the philosopher-emperor who wrote about the brotherhood of mankind and equality
+            of all rational beings, spent his reign persecuting Christians and died leaving the empire to his
+            monstrous son Commodus — his Meditations are a record of genuine moral effort combined with
+            catastrophic practical governance."
+
+      - id: 4
+        name: Neo-Stoicism
+        focus: >
+          The Renaissance and early modern revival of Stoicism — Justus Lipsius's Neo-Stoicism as a response
+          to the religious wars, its influence on natural law theory, and the Stoic elements in Spinoza.
+        key_figures:
+          - "Justus Lipsius"
+          - "Guillaume Du Vair"
+          - "Francisco de Quevedo"
+          - "Baruch Spinoza"
+        key_texts:
+          - "On Constancy — Lipsius (1584)"
+          - "The Philosophy of Constancy — Du Vair (1594)"
+          - "Ethics — Spinoza (1677)"
+        key_controversies:
+          - "Lipsius's Neo-Stoicism recommended political accommodation with tyranny — his 'constancy' under
+            the religious wars amounted to advising intellectuals to submit to whatever ruler held power,
+            which is not Stoic philosophy but quietism in philosophical dress, serving the interests of
+            rulers rather than the flourishing of citizens."
+          - "The Neo-Stoic absorption into Christian natural law theory was pressed into service for colonial
+            expansion and justification of European dominance as 'natural order,' transforming a philosophy
+            of universal human reason into a rationale for civilizational hierarchy."
+
+      - id: 5
+        name: Modern Stoicism
+        focus: >
+          The 21st century popular revival — cognitive behavioral therapy's acknowledged debt to Stoic
+          practice, the tech and self-help industry's adoption of Stoicism, and philosophical debate about
+          what survives of the ancient system in its contemporary simplified forms.
+        key_figures:
+          - "Ryan Holiday"
+          - "Massimo Pigliucci"
+          - "William Irvine"
+          - "Donald Robertson"
+        key_texts:
+          - "The Obstacle Is the Way — Holiday (2014)"
+          - "How to Be a Stoic — Pigliucci (2017)"
+          - "A Guide to the Good Life — Irvine (2008)"
+        key_controversies:
+          - "Modern pop-Stoicism has been systematically stripped of its physics, logic, and cosmology —
+            what remains is a self-help productivity system disconnected from the Stoic metaphysics
+            (materialism, divine logos, determinism) that made the ethical claims coherent; Ryan Holiday's
+            Stoicism is Marcus Aurelius edited for Silicon Valley hustle culture."
+          - "The adoption of Stoicism by military and corporate culture reveals its ideological function:
+            teaching individuals to control their responses to bad conditions rather than change the
+            conditions serves institutions that depend on employees and soldiers absorbing injustice without
+            complaint — modern Stoicism is a resilience program for systems that should be reformed."
+
+  - id: transhumanism
+    name: Transhumanism
+    slug: transhumanism
+    description: >
+      Transhumanism is a philosophical and cultural movement asserting that humanity can and should transcend
+      its biological limitations through technology — extending lifespan, enhancing cognition, eliminating
+      disease, and ultimately achieving radical transformation of the human condition. Rooted in
+      Enlightenment rationalism, evolutionary thinking, and early computing culture, transhumanism
+      encompasses a wide range from the life-extension ambitions of the Extropians to democratic
+      transhumanism and existential risk concerns. It represents both a genuine philosophical program and
+      a significant site of techno-utopianism, Silicon Valley ideology, and bioethical controversy.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Early Transhumanism
+        focus: >
+          The pre-movement precursors — Julian Huxley's coining of the term, the eugenics connection, and
+          early speculative writing about human enhancement that laid the conceptual groundwork before the
+          internet era.
+        key_figures:
+          - "Julian Huxley"
+          - "J.B.S. Haldane"
+          - "Nikolai Fyodorov"
+          - "FM-2030 (Fereidoun Esfandiary)"
+        key_texts:
+          - "Daedalus, or Science and the Future — Haldane (1924)"
+          - "New Bottles for New Wine — Huxley (1957)"
+          - "Are You a Transhuman? — FM-2030 (1989)"
+        key_controversies:
+          - "Julian Huxley coined 'transhumanism' while serving as UNESCO's first Director-General and was a
+            committed eugenicist — the historical continuity between transhumanism and eugenics is not
+            incidental but structural: both programs assume human beings should be improved by deliberate
+            biological intervention, and the shift from race to individual enhancement does not eliminate
+            the underlying logic of biological perfectionism."
+          - "FM-2030's vision of a posthuman future ignored the economic reality that biotechnological
+            enhancements would be accessible only to those who could pay — making transhumanism from the
+            beginning a philosophy of elite immortality rather than species-wide liberation, a problem the
+            movement has never seriously addressed."
+
+      - id: 2
+        name: Extropianism
+        focus: >
+          The organized transhumanist movement of the 1980s and 1990s centered on the Extropy Institute —
+          the principles of extropy, cryonics, cognitive enhancement, and the libertarian-techno-utopian
+          synthesis that shaped Silicon Valley culture.
+        key_figures:
+          - "Max More"
+          - "Natasha Vita-More"
+          - "Hans Moravec"
+          - "Eric Drexler"
+        key_texts:
+          - "The Principles of Extropy — More (1990)"
+          - "Mind Children — Moravec (1988)"
+          - "Engines of Creation — Drexler (1986)"
+        key_controversies:
+          - "Extropianism's libertarian politics — that market forces and individual choice should drive
+            enhancement without regulation — is a recipe for enhancement inequality that Extropians never
+            seriously addressed; if cognitive and physical enhancements are market goods, wealth determines
+            who gets to be posthuman, entrenching existing hierarchies rather than transcending them."
+          - "Cryonics is marketed as science but is currently closer to pseudoscience: no organization has
+            successfully revived a human brain frozen by current methods, ice crystal damage to cellular
+            structures is severe, and critics including neuroscientist Miguel Nicolelis argue that personal
+            identity depends on dynamic neural activity that cryopreservation cannot preserve."
+
+      - id: 3
+        name: Democratic Transhumanism
+        focus: >
+          The left-progressive response to libertarian transhumanism — James Hughes's argument that
+          enhancement technologies should be publicly funded, equitably distributed, and governed
+          democratically, not left to markets.
+        key_figures:
+          - "James Hughes"
+          - "Andy Miah"
+          - "Nick Bostrom"
+          - "Julian Savulescu"
+        key_texts:
+          - "Citizen Cyborg — Hughes (2004)"
+          - "A History of Transhumanist Thought — Bostrom (2005)"
+          - "Transhumanism: The World's Most Dangerous Idea — Fukuyama (2004)"
+        key_controversies:
+          - "Fukuyama's designation of transhumanism as 'the world's most dangerous idea' argued it threatens
+            the concept of human dignity that grounds equality — by creating a biological hierarchy between
+            enhanced and unenhanced humans; transhumanists dismissed this as naturalistic fallacy, but the
+            concern about political equality in a world of radical enhancement remains unanswered."
+          - "Bostrom's moral framework depends on a utilitarian calculus treating consciousness as
+            substrate-independent — the claim that uploaded minds or radically enhanced humans are morally
+            equivalent to current humans requires metaphysical assumptions about personal identity that
+            Bostrom asserts rather than demonstrates."
+
+      - id: 4
+        name: Contemporary Transhumanism
+        focus: >
+          Transhumanism in the present moment — existential risk, AI alignment, longevity escape velocity,
+          Neuralink and CRISPR as real technologies, and the billionaire backing that makes transhumanism
+          no longer theoretical.
+        key_figures:
+          - "Elon Musk"
+          - "Peter Thiel"
+          - "Aubrey de Grey"
+          - "Sam Altman"
+          - "Eliezer Yudkowsky"
+        key_texts:
+          - "Ending Aging — de Grey (2007)"
+          - "Superintelligence — Bostrom (2014)"
+          - "The Singularity Is Near — Kurzweil (2005)"
+        key_controversies:
+          - "The billionaire capture of transhumanism — Thiel funding life extension, Musk founding Neuralink,
+            Altman investing in radical longevity — has transformed a philosophical movement into a
+            tax-advantaged vanity project for the ultra-rich; the 'species-wide' enhancement agenda is funded
+            by and primarily benefits people who already own everything."
+          - "Effective altruism's absorption of existential risk concerns — treating prevention of future AI
+            catastrophe as more important than current human suffering — allows tech billionaires to feel
+            virtuous about accumulating AI capabilities while doing nothing for billions dying preventably of
+            poverty and disease, and has been criticized by mainstream ethicists as moral laundering."
+
+  - id: confucianism
+    name: Confucianism
+    slug: confucianism
+    description: >
+      Confucianism is a philosophical and ethical tradition originating with Kong Qiu (Confucius) in 6th–5th
+      century BCE China, centered on the cultivation of moral character, the proper ordering of human
+      relationships, and the role of ritual and education in producing social harmony. Confucianism defined
+      Chinese civilization and spread throughout East Asia, providing the ethical foundations of governance,
+      family life, and social organization for over two millennia. Far from a static tradition, Confucianism
+      has been continuously reinterpreted — most dramatically in Neo-Confucianism and in contemporary
+      attempts to engage with democracy, human rights, and global modernity.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Classical Confucianism
+        focus: >
+          Confucius and his immediate successors — the original formulation of ren (benevolence), li
+          (ritual propriety), and the rectification of names as the foundation of social order, and the
+          competing Confucian and Mohist schools of the Warring States period.
+        key_figures:
+          - "Confucius (Kong Qiu)"
+          - "Mencius (Mengzi)"
+          - "Xunzi"
+          - "Zisi (Kong Ji)"
+        key_texts:
+          - "Analects — Confucius (compiled posthumously)"
+          - "Mencius — Mencius (4th century BCE)"
+          - "Xunzi — Xunzi (3rd century BCE)"
+          - "The Doctrine of the Mean — Zisi"
+        key_controversies:
+          - "Confucius's insistence on adherence to Zhou ritual is fundamentally conservative — it uses the
+            authority of an idealized past to suppress political change, and his failure to win a position of
+            power despite decades of seeking one suggests that even contemporaries recognized his program as
+            more nostalgic than practical."
+          - "The Mencius-Xunzi debate about whether human nature is originally good or bad is not merely
+            philosophical — Mencian optimism supports the right to rebel against unjust rulers, while Xunzi's
+            pessimism supports authoritarian social control, and the political stakes are rarely acknowledged
+            in Western academic treatments."
+
+      - id: 2
+        name: Han Confucianism
+        focus: >
+          The institutionalization of Confucianism as state ideology under the Han dynasty — the imperial
+          examination system, canonization of the Five Classics, and Dong Zhongshu's synthesis of
+          Confucianism with cosmological and political thought.
+        key_figures:
+          - "Dong Zhongshu"
+          - "Emperor Wu of Han"
+          - "Liu Xiang"
+          - "Ban Zhao"
+        key_texts:
+          - "Luxuriant Dew of the Spring and Autumn Annals — Dong Zhongshu"
+          - "Lessons for Women — Ban Zhao (c. 80 CE)"
+          - "Records of the Grand Historian — Sima Qian"
+        key_controversies:
+          - "The Han institutionalization of Confucianism as state orthodoxy transformed a philosophy of
+            moral cultivation into a mechanism of political control — the imperial examination system selected
+            for conformity to canonical interpretation rather than ethical reasoning, and identification of
+            Confucian virtue with loyalty to the emperor converted a critique of bad rulers into a
+            justification of imperial power."
+          - "Ban Zhao's Lessons for Women systematically articulates the subordination of women as natural
+            and moral — her advice that women should practice yielding, humility, and subordination is not a
+            subversion of Confucianism but its faithful application to gender, demonstrating that classical
+            Confucianism's relational hierarchy is structurally incompatible with gender equality."
+
+      - id: 3
+        name: Neo-Confucianism
+        focus: >
+          The Song dynasty synthesis that revitalized Confucianism by incorporating Buddhist and Daoist
+          metaphysics — Zhu Xi's rationalism and Wang Yangming's idealism as the two dominant tendencies of
+          a tradition that became the official philosophy of China, Japan, Korea, and Vietnam.
+        key_figures:
+          - "Zhu Xi"
+          - "Wang Yangming"
+          - "Cheng Yi"
+          - "Cheng Hao"
+          - "Zhang Zai"
+        key_texts:
+          - "Classified Conversations — Zhu Xi"
+          - "Instructions for Practical Living — Wang Yangming"
+          - "Western Inscription — Zhang Zai"
+        key_controversies:
+          - "Zhu Xi's Neo-Confucianism absorbed Buddhist concepts of principle (li) and material force (qi)
+            while explicitly condemning Buddhism — this philosophical bad faith allowed Neo-Confucianism to
+            benefit from Buddhist metaphysical sophistication while performing an anti-Buddhist orthodoxy
+            that was politically useful for the imperial state but intellectually dishonest."
+          - "Wang Yangming's 'unity of knowledge and action' — the claim that genuine knowledge of the good
+            is automatically expressed in right action — was used by his radical followers to justify actions
+            based on personal moral intuition against social norms and authority, which Neo-Confucian
+            conservatives correctly identified as producing antinomian instability."
+
+      - id: 4
+        name: Contemporary Confucianism
+        focus: >
+          Confucianism's engagement with modernity — the New Confucians' attempt to reconcile Confucianism
+          with science and democracy, the 'Confucian capitalism' debates, and the Chinese state's selective
+          appropriation of Confucian values for authoritarian nationalist purposes.
+        key_figures:
+          - "Mou Zongsan"
+          - "Tu Weiming"
+          - "Jiang Qing"
+          - "Daniel Bell"
+        key_texts:
+          - "Intellectual Intuition and Chinese Philosophy — Mou Zongsan (1971)"
+          - "Confucianism and Human Rights — de Bary and Weiming (1998)"
+          - "A Confucian Constitutional Order — Jiang Qing (2012)"
+        key_controversies:
+          - "The Chinese Communist Party's revival of Confucianism since the 2000s is nakedly instrumental:
+            a tradition that emphasized the ruler's moral accountability to Heaven and the people's right to
+            withdraw the Mandate is being used to legitimize one-party authoritarian rule, inverting its
+            philosophical content while deploying its cultural prestige."
+          - "Jiang Qing's Confucian constitutionalism — proposing a tricameral legislature giving unelected
+            Confucian scholars veto power over democratic decisions — has been criticized by both liberal and
+            left scholars as a philosophical rationale for elite rule, dressing authoritarianism in the
+            language of cultural tradition."
+
+  - id: situationism
+    name: Situationism
+    slug: situationism
+    description: >
+      Situationism, or the Situationist International (SI), was a radical avant-garde political and artistic
+      movement founded in 1957 and active until 1972, best known for its analysis of the 'spectacle' — the
+      total domination of capitalist society through image and commodity — and its practical strategies of
+      détournement (hijacking existing cultural material) and the dérive (unplanned urban drift). The SI
+      provided the theoretical framework for the May 1968 uprising in France and its influence pervades
+      contemporary radical politics, cultural theory, punk, and the critique of consumer society.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Founding and Letterism
+        focus: >
+          The prehistory of the SI — the Letterist International and its confrontational artistic
+          provocations, the merger with COBRA and the International Movement for an Imaginist Bauhaus, and
+          the founding congress at Cosio d'Arroscia in 1957.
+        key_figures:
+          - "Guy Debord"
+          - "Isidore Isou"
+          - "Gil Wolman"
+          - "Asger Jorn"
+          - "Constant Nieuwenhuys"
+        key_texts:
+          - "Report on the Construction of Situations — Debord (1957)"
+          - "Methods of Détournement — Debord and Wolman (1956)"
+          - "Screams in Favor of de Sade — Debord (film, 1952)"
+        key_controversies:
+          - "The SI was founded through the exclusion of Isidore Isou and the Letterist movement from which
+            Debord himself emerged — Debord's model of constant exclusions and purges was present from the
+            founding moment, suggesting that Situationism's theory of authentic communication was always
+            practiced through authoritarian management of who got to speak."
+          - "Asger Jorn's resignation from the SI over the conflict between art and anti-art politics revealed
+            a fundamental tension never resolved: could the SI use art to destroy the spectacle, or did making
+            art inevitably reproduce it? The question consumed the movement for its entire existence."
+
+      - id: 2
+        name: Classical Situationism
+        focus: >
+          The theoretical peak — Debord's Society of the Spectacle, the concepts of détournement and dérive,
+          the critique of urbanism, and the theory of the spectacle as the most complete account of how
+          capitalism maintains ideological domination.
+        key_figures:
+          - "Guy Debord"
+          - "Raoul Vaneigem"
+          - "Attila Kotányi"
+          - "Mustapha Khayati"
+        key_texts:
+          - "The Society of the Spectacle — Debord (1967)"
+          - "The Revolution of Everyday Life — Vaneigem (1967)"
+          - "On the Poverty of Student Life — Khayati (1966)"
+        key_controversies:
+          - "Debord's concept of the spectacle is totalized to the point of unfalsifiability: everything is
+            spectacle, all resistance is recuperated into spectacle, all critique becomes part of spectacle
+            — a theory with no outside and no mechanism for genuine opposition is not a revolutionary theory
+            but a theory of total domination that makes revolution logically impossible while gesturing at
+            it rhetorically."
+          - "The SI's treatment of women was a straightforward reproduction of the male-dominated left it
+            claimed to transcend — female members were systematically marginalized; Michèle Bernstein and
+            Jacqueline de Jong produced significant work absorbed into male-authored theory without credit,
+            and the SI's failure to theorize gender was not an oversight but a structural blind spot."
+
+      - id: 3
+        name: May 1968 and Aftermath
+        focus: >
+          The SI's moment of historical impact — the role of Situationist slogans and theory in the May 1968
+          uprising, the movement's response to what it saw as the recuperation of '68, and the internal
+          splits and purges that destroyed the organization.
+        key_figures:
+          - "Guy Debord"
+          - "René Viénet"
+          - "Raoul Vaneigem"
+          - "Christian Sebastiani"
+        key_texts:
+          - "The Beginning of an Era — Debord (1969)"
+          - "Enragés and Situationists in the Occupation Movement — Viénet (1968)"
+          - "Comments on the Society of the Spectacle — Debord (1988)"
+        key_controversies:
+          - "May 1968 was simultaneously the SI's greatest triumph and the proof of its thesis turned against
+            itself: Situationist slogans were immediately printed on T-shirts, sold in galleries, and
+            incorporated into advertising — recuperation happened within months, and the SI had no response
+            beyond expelling members and becoming more sectarian."
+          - "Vaneigem's resignation from the SI in 1970, which Debord responded to with contempt, revealed
+            that the movement's demand for total revolution in everyday life was incompatible with actual
+            human relationships — the SI required members to live its theory completely, and when they could
+            not, they were excluded; the organization's practice was authoritarian precisely where its theory
+            demanded liberation."
+
+      - id: 4
+        name: Legacy and Post-Situationism
+        focus: >
+          The SI's afterlife — its influence on punk, the British left, academic cultural studies, and the
+          anti-globalization movement, and the question of whether that influence constitutes the
+          recuperation the SI most feared.
+        key_figures:
+          - "Malcolm McLaren"
+          - "Stewart Home"
+          - "Sadie Plant"
+          - "Ken Knabb"
+        key_texts:
+          - "The Most Radical Gesture — Plant (1992)"
+          - "The Assault on Culture — Home (1988)"
+          - "Situationist International Anthology — Knabb (2006)"
+        key_controversies:
+          - "Punk's adoption of Situationist détournement through Malcolm McLaren — the Sex Pistols, the
+            safety-pin aesthetic, manufactured rebellion — is the perfect demonstration of the SI's own
+            theory: radical critique recuperated into a commodity and marketed back to the youth culture it
+            was supposed to liberate; Situationist-inspired punk as a music industry product is
+            simultaneously the movement's greatest influence and its complete negation."
+          - "The academic institutionalization of Situationism — Debord's works on university syllabi, the
+            Society of the Spectacle available on Amazon, conferences on détournement at respectable
+            universities — would have been recognized by Debord himself as recuperation; yet the alternative
+            (keeping the theory inaccessible) reproduces the elitism that SI critics always identified as
+            its fundamental flaw."
+
+  - id: structuralism
+    name: Structuralism
+    slug: structuralism
+    description: >
+      Structuralism is an intellectual movement originating in Saussurean linguistics that analyzes cultural
+      phenomena as systems of relations rather than collections of independent elements — meaning arises not
+      from things themselves but from the differences between them within a structure. Developed in
+      anthropology by Lévi-Strauss, in literary theory by Barthes and Genette, in psychoanalysis by Lacan,
+      and in Marxism by Althusser, structuralism transformed the human sciences in the 1950s–1970s before
+      being succeeded by the post-structuralism it generated. Its lasting contribution is the insight that
+      language, culture, and meaning are systematic rather than natural.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Linguistic Foundations
+        focus: >
+          Saussure's revolutionary linguistics — the distinction between langue and parole, the arbitrariness
+          of the sign, synchrony versus diachrony, and the principle that language is a system of differences
+          with no positive terms — which provided the model all structuralists would apply to their fields.
+        key_figures:
+          - "Ferdinand de Saussure"
+          - "Roman Jakobson"
+          - "Nikolai Trubetzkoy"
+          - "Louis Hjelmslev"
+        key_texts:
+          - "Course in General Linguistics — Saussure (published posthumously, 1916)"
+          - "Fundamentals of Language — Jakobson and Halle (1956)"
+          - "Prolegomena to a Theory of Language — Hjelmslev (1943)"
+        key_controversies:
+          - "The Course in General Linguistics was not written by Saussure — it was compiled from student
+            notes after his death, and recent scholarship shows the published text distorts and simplifies
+            Saussure's actual positions; structuralism was built on a reconstruction that may not accurately
+            represent the linguist who supposedly founded it."
+          - "Saussure's claim that the linguistic sign is arbitrary undermines structural analysis itself:
+            if meaning is purely differential and relational, then structures themselves have no foundation,
+            and structuralism cannot explain why some structures persist rather than others without appealing
+            to history, which structuralism's synchronic method excludes."
+
+      - id: 2
+        name: Structural Anthropology
+        focus: >
+          Lévi-Strauss's application of structural linguistics to myth, kinship, and culture — the claim
+          that the human mind universally operates through binary oppositions and that myths are logical
+          machines for resolving cultural contradictions.
+        key_figures:
+          - "Claude Lévi-Strauss"
+          - "Marcel Mauss"
+          - "Edmund Leach"
+          - "Mary Douglas"
+        key_texts:
+          - "The Elementary Structures of Kinship — Lévi-Strauss (1949)"
+          - "Structural Anthropology — Lévi-Strauss (1958)"
+          - "The Raw and the Cooked — Lévi-Strauss (1964)"
+          - "Purity and Danger — Douglas (1966)"
+        key_controversies:
+          - "Lévi-Strauss's structural analysis of myth finds the structures he is looking for because the
+            method is circular — he interprets mythic elements until binary oppositions appear, then calls
+            this discovery; his analyses have been rejected by classicists and anthropologists who work with
+            actual cultural contexts, which his synchronic method deliberately ignores."
+          - "The structuralist claim that binary oppositions (nature/culture, raw/cooked, male/female) are
+            universal features of the human mind is a philosophical assertion dressed as ethnographic data;
+            it has been falsified by anthropologists documenting cultures with fundamentally different
+            categorical systems, and its universalism makes Western categorical schemes appear as features of
+            cognition rather than products of particular histories."
+
+      - id: 3
+        name: Literary Structuralism
+        focus: >
+          The application of structural method to literature — Barthes's early semiology, Genette's
+          narratology, and Greimas's actantial model — producing a science of narrative that analyzed texts
+          as systems rather than reading them for meaning.
+        key_figures:
+          - "Roland Barthes"
+          - "Gérard Genette"
+          - "Algirdas Greimas"
+          - "Tzvetan Todorov"
+        key_texts:
+          - "Mythologies — Barthes (1957)"
+          - "S/Z — Barthes (1970)"
+          - "Narrative Discourse — Genette (1972)"
+          - "Morphology of the Folktale — Propp (1928)"
+        key_controversies:
+          - "Barthes's 'Death of the Author' — the claim that the author's intentions are irrelevant and
+            meaning is produced by language and reader — eliminates the concept of criticism itself: if any
+            reading is as valid as any other, then structuralist analysis has no privileged status, and
+            Barthes's own readings are arbitrary performances rather than structural discoveries."
+          - "Literary structuralism's aspiration to be a science of narrative produced taxonomies (Greimas's
+            actantial model, Todorov's narrative grammar) too rigid to illuminate actual literary complexity
+            — the method could describe simple folk tales adequately but consistently failed on modernist or
+            experimental texts, exposing that its 'universality' was derived from a narrow corpus."
+
+      - id: 4
+        name: Post-Structuralism
+        focus: >
+          The internal critique that destroyed structuralism from within — Derrida's deconstruction,
+          Foucault's archaeology of discourse, and Lacan's reformulation of Freud in structuralist terms,
+          all pushing structural analysis to points where the structure itself destabilizes.
+        key_figures:
+          - "Jacques Derrida"
+          - "Michel Foucault"
+          - "Jacques Lacan"
+          - "Julia Kristeva"
+          - "Gilles Deleuze"
+        key_texts:
+          - "Of Grammatology — Derrida (1967)"
+          - "Structure, Sign, and Play — Derrida (1966)"
+          - "The Archaeology of Knowledge — Foucault (1969)"
+          - "Écrits — Lacan (1966)"
+        key_controversies:
+          - "Derrida's deconstruction is performed in prose deliberately designed to resist paraphrase, which
+            means it cannot be evaluated by normal philosophical standards — when critics argue that
+            deconstruction is self-refuting or meaningless, Derrideans respond that the critique misses the
+            point; a theory that defines its own terms of evaluation is a self-enclosed game that can
+            never be wrong."
+          - "Lacan's use of mathematical and topological notation — Borromean rings, the formulas of
+            sexuation — has been shown by mathematicians, including those he himself invited to examine his
+            work, to be mathematically nonsensical; Lacan used the prestige of formal mathematics to
+            authorize clinical and theoretical claims it did not support, and the widespread adoption of his
+            framework in literary studies represents a large-scale failure of critical evaluation."
+
+  - id: modernism
+    name: Modernism
+    slug: modernism
+    description: >
+      Modernism is the broad cultural, artistic, and intellectual movement of the late 19th and early 20th
+      centuries that broke with tradition, classical form, and Victorian certainty in response to
+      industrialization, urbanization, and the crises of World War I. In literature, painting, music, and
+      architecture, modernism pursued formal experimentation, self-reflexivity, psychological depth, and
+      rejection of realistic representation. Modernism ranges from the stream-of-consciousness novel to
+      abstract painting to the International Style in architecture, and its relationship to political
+      radicalism, fascism, and the authority of high culture makes it one of the most contested categories
+      in cultural history.
+    data_sources:
+      - wikipedia
+      - sep
+    stages:
+      - id: 1
+        name: Pre-Modernism
+        focus: >
+          The 19th century conditions for modernism — Baudelaire's aesthetics of modernity, Impressionism's
+          break from academic painting, Nietzsche's critique of tradition, and Symbolism's turn toward
+          interiority and language as autonomous forms.
+        key_figures:
+          - "Charles Baudelaire"
+          - "Friedrich Nietzsche"
+          - "Stéphane Mallarmé"
+          - "Paul Cézanne"
+          - "Henrik Ibsen"
+        key_texts:
+          - "The Flowers of Evil — Baudelaire (1857)"
+          - "The Painter of Modern Life — Baudelaire (1863)"
+          - "A Doll's House — Ibsen (1879)"
+          - "Thus Spoke Zarathustra — Nietzsche (1883)"
+        key_controversies:
+          - "Baudelaire's 'modernity' — the fleeting, contingent present as the source of beauty — is an
+            aesthetics of shock that requires constant novelty to maintain effect; Walter Benjamin identified
+            that this makes modernism structurally dependent on capitalism's logic of perpetual innovation,
+            binding aesthetic radicalism to the very economic system it claims to critique."
+          - "The Impressionists' break from academic painting has been so thoroughly canonized that it is
+            impossible to see them as provocateurs — their paintings now hang in the most conservative
+            institutions in the world; this is the first example of what the Situationists would call
+            recuperation, and it raises the question of whether artistic radicalism can ever escape this fate."
+
+      - id: 2
+        name: Early Modernism
+        focus: >
+          The first wave of self-consciously modernist works — Cubism, Imagism, and the Austro-Hungarian and
+          Anglo-American literary experiments that announced a conscious break with Victorian aesthetics.
+        key_figures:
+          - "Pablo Picasso"
+          - "Ezra Pound"
+          - "Henry James"
+          - "Sigmund Freud"
+          - "Georges Braque"
+          - "William James"
+        key_texts:
+          - "Les Demoiselles d'Avignon — Picasso (painting, 1907)"
+          - "The Interpretation of Dreams — Freud (1899)"
+          - "The ABC of Reading — Pound (1934)"
+          - "Principles of Psychology — William James (1890)"
+        key_controversies:
+          - "Ezra Pound's influence on modernist literature — his editorial role shaping The Waste Land, his
+            championing of Joyce and Williams — is inseparable from his virulent antisemitism and wartime
+            broadcasts for Mussolini's Italy; whether his aesthetics and his politics can be separated has
+            never been resolved, and the modernist literary canon's dependence on Pound raises the question
+            of what values the canon actually encodes."
+          - "Freud's psychoanalytic theory, which modernist literature absorbed as a model of the unconscious,
+            has not survived scientific scrutiny — the unconscious as Freud conceived it, repression, the
+            Oedipus complex, and dream interpretation as systematic decoding have all been rejected or heavily
+            qualified by contemporary neuroscience; the modernist technique of stream-of-consciousness was
+            built on a scientific foundation that was wrong."
+
+      - id: 3
+        name: High Modernism
+        focus: >
+          The peak of modernist ambition — Joyce's Ulysses, Woolf's The Waves, Eliot's The Waste Land,
+          Schoenberg's atonalism, Le Corbusier's architectural machine for living — works that took formal
+          experimentation to its furthest point and established the modernist canon.
+        key_figures:
+          - "James Joyce"
+          - "Virginia Woolf"
+          - "T.S. Eliot"
+          - "Arnold Schoenberg"
+          - "Le Corbusier"
+          - "William Faulkner"
+        key_texts:
+          - "Ulysses — Joyce (1922)"
+          - "The Waste Land — Eliot (1922)"
+          - "Mrs Dalloway — Woolf (1925)"
+          - "Toward an Architecture — Le Corbusier (1923)"
+        key_controversies:
+          - "T.S. Eliot's The Waste Land is inseparable from Eliot's antisemitism, monarchism, and
+            Anglo-Catholic conservatism — the cultural elitism of the poem, its scorn for mass culture, and
+            its nostalgia for unified European civilization are not incidental to its form but constitutive
+            of its literary values; canonizing it as purely aesthetic achievement requires willful blindness
+            to its politics."
+          - "Le Corbusier's Radiant City — the high modernist vision of urban life as geometric efficiency
+            — was implemented in housing projects worldwide and produced some of the most inhuman built
+            environments of the 20th century; the Pruitt-Igoe disaster and equivalent failures demonstrated
+            that high modernist aesthetics, applied to working-class housing, served the state's desire for
+            manageable populations rather than human needs."
+
+      - id: 4
+        name: Late Modernism
+        focus: >
+          Modernism after its peak — Beckett's minimalism, Abstract Expressionism, mid-century architectural
+          brutalism, and the debates about whether modernism had exhausted itself or whether a 'late
+          modernism' extended its project in transformed conditions.
+        key_figures:
+          - "Samuel Beckett"
+          - "Jackson Pollock"
+          - "Theodor Adorno"
+          - "Francis Bacon"
+          - "Paul Celan"
+        key_texts:
+          - "Waiting for Godot — Beckett (1952)"
+          - "Aesthetic Theory — Adorno (1970)"
+          - "Death Fugue — Celan (1944–45)"
+          - "Endgame — Beckett (1957)"
+        key_controversies:
+          - "Adorno's dictum that 'to write poetry after Auschwitz is barbaric' — his argument that the
+            Holocaust destroyed the conditions for meaningful cultural expression — was directly challenged
+            by Celan's own practice of writing poetry out of and about the Holocaust; the debate between
+            their positions is unresolved and concerns not just literature but whether any cultural form can
+            be adequate to historical catastrophe."
+          - "Abstract Expressionism was actively promoted by the CIA through the Congress for Cultural Freedom
+            as a Cold War weapon — the freedom and individualism supposedly expressed by Pollock and de
+            Kooning were contrasted with Soviet socialist realism as evidence of Western cultural superiority;
+            the most 'autonomous' art movement of the 20th century was partially a state propaganda project,
+            which retroactively politicizes all claims to aesthetic autonomy."
+
+      - id: 5
+        name: Post-Modernism
+        focus: >
+          The announced end of modernism — postmodernism in architecture, literature, and theory rejects
+          the seriousness, hierarchy, and progressive ambitions of modernism in favor of irony, pastiche,
+          intertextuality, and the collapse of the distinction between high and low culture.
+        key_figures:
+          - "Jean-François Lyotard"
+          - "Jean Baudrillard"
+          - "Robert Venturi"
+          - "Thomas Pynchon"
+          - "David Foster Wallace"
+        key_texts:
+          - "The Postmodern Condition — Lyotard (1979)"
+          - "Simulacra and Simulation — Baudrillard (1981)"
+          - "Complexity and Contradiction in Architecture — Venturi (1966)"
+          - "Gravity's Rainbow — Pynchon (1973)"
+        key_controversies:
+          - "Postmodernism's 'incredulity toward metanarratives' is itself a metanarrative; the self-defeating
+            character of postmodern theory is not just a logical puzzle but a political problem: the rejection
+            of universal truth claims was appropriated by climate change deniers, vaccine opponents, and
+            right-wing populists to dismiss scientific consensus, demonstrating that epistemological
+            relativism has real political consequences."
+          - "David Foster Wallace's critique of postmodern irony — his argument that ironic detachment had
+            become a defense mechanism preventing genuine feeling or commitment — identified the political
+            conservatism embedded in postmodernism's aesthetic of endless quotation and self-reference; the
+            culture of irony makes sincerity embarrassing and earnestness naive, which serves existing power
+            by making investment in change feel uncool."
